@@ -1,3 +1,5 @@
+emailjs.init("psetapp");
+
 document.addEventListener("DOMContentLoaded", function () {
     const formularioDudas = document.getElementById("cochang");
     formularioDudas.addEventListener("submit", function (event) {
@@ -7,20 +9,24 @@ document.addEventListener("DOMContentLoaded", function () {
         const numero = document.getElementById("numero").value;
         const email = document.getElementById("email").value;
         const mensaje = document.getElementById("mensaje").value;
-
-        emailjs.send("default_service", "psetapp", {
-            nombre: nombre,
-            numero: numero,
-            email: email,
-            mensaje: mensaje,
-        }).then(function(response) {
-            console.log("Correo enviado con éxito", response);
-            alert("Correo enviado con éxito");
-            formularioDudas.reset();
-        }, function(error) {
-            console.error("Error al enviar el correo", error);
-            alert("Hubo un error al enviar el correo");
-        });
+        const emailData = {
+            from: email,
+            from_name: nombre,
+            from_num: numero,
+            to: 'psetapp@gmail.com',
+            message: mensaje
+        };
+        
+        emailjs.send("psetapp", undefined, emailData)
+            .then(function(response) {
+                console.log("Correo enviado con éxito", response);
+                alert("Correo enviado con éxito");
+                formularioDudas.reset();
+            })
+            .catch(function(error) {
+                console.error("Error al enviar el correo", error);
+                alert("Hubo un error al enviar el correo");
+            });
     });
 });
 
