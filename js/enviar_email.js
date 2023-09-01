@@ -1,4 +1,4 @@
-emailjs.init("psetapp");
+emailjs.init("PSetAPP");
 
 document.addEventListener("DOMContentLoaded", function () {
     const formularioDudas = document.getElementById("cochang");
