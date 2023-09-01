@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = document.getElementById("email").value;
         const mensaje = document.getElementById("mensaje").value;
 
-        emailjs.send("default_service", "template_id", {
+        emailjs.send("default_service", "psetapp", {
             nombre: nombre,
             numero: numero,
             email: email,
