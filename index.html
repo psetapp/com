@@ -305,7 +305,8 @@
                            <q>
                               The life is based on creating projects and goals, without them, we are
                            <br>
-                           </q> empty humans. - Alejandro, August 2023.
+                              empty humans
+                           </q> - Alejandro, August 2023.
                            <br>
                            <br>
                         </p>
@@ -333,7 +334,7 @@
                </div>
                <div class="row">
                   <div class="col-md-6 offset-md-3">
-                     <form id="cochang" class="form_main" action="./js/enviar_email.js" method="POST">
+                     <form id="cochang" class="form_main">
                         <div class="row">
                            <div class="col-md-12">
                               <input class="form_control" id="nombre" placeholder="Name & Surname" type="text" name="Name" required>
@@ -348,7 +349,7 @@
                               <input class="form_control" id="mensaje" placeholder="Message (Máx. 140)" type="text" name="Message" maxlength="140" required>
                            </div>
                            <div class="col-md-12">
-                              <button id="btnEnviarEmail">Send</button>
+                              <input id="btnEnviarEmail" type="submit" value="Send">
                            </div>
                         </div>
                         <input type="hidden" name="_next" value="./">
@@ -408,6 +409,7 @@
       <div class="overlay"></div>
       <!-- Javascript files-->
       <script src="js/enviar_email.js"></script>
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>

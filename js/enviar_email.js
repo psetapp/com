@@ -1,8 +1,53 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const formularioDudas = document.getElementById("cochang");
+    formularioDudas.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const nombre = document.getElementById("nombre").value;
+        const numero = document.getElementById("numero").value;
+        const email = document.getElementById("email").value;
+        const mensaje = document.getElementById("mensaje").value;
+
+        emailjs.send("default_service", "template_id", {
+            nombre: nombre,
+            numero: numero,
+            email: email,
+            mensaje: mensaje,
+        }).then(function(response) {
+            console.log("Correo enviado con éxito", response);
+            alert("Correo enviado con éxito");
+            formularioDudas.reset();
+        }, function(error) {
+            console.error("Error al enviar el correo", error);
+            alert("Hubo un error al enviar el correo");
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.getElementById("btnEnviarEmail").addEventListener("click", function() {
-    const nombre = document.getElementById("nombre").value;
-    const numero = document.getElementById("numero").value;
-    const email = document.getElementById("email").value;
-    const mensaje = document.getElementById("mensaje").value;
+    
+
+    const URL = 'https://gmail.googleapis.com';
 
     const data = {
         personalizations: [{
@@ -13,10 +58,9 @@ document.getElementById("btnEnviarEmail").addEventListener("click", function() {
         content: [{ type: "text/plain", value: mensaje }]
     };
 
-    fetch("https://api.sendgrid.com/v3/mail/send", {
+    fetch(URL, {
                 method: "POST",
                 headers: {
-                    "Authorization": "Bearer YOUR_SENDGRID_API_KEY",
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify(data)
