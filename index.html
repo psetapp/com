@@ -27,6 +27,11 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <!-- Paquete Idioma -->
+      <script src="./js/idioma.js"></script>
+      <script src="./json/es.json" id="es" type="application/json"></script>
+      <script src="./json/en.json" id="en" type="application/json"></script>
+      <script src="./json/fr.json" id="fr" type="application/json"></script>
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -85,8 +90,21 @@
                               <div class="right_header_info">
                                  <ul>
                                     <li>
+                                       <select id="idioma">
+                                          <option value="en">
+                                             <img src="images/englishFlag.png" alt="englishFlag"/>English
+                                          </option>
+                                          <option value="es">
+                                             <img src="images/spanishFlag.png" alt="spanishFlag"/>Español
+                                          </option>
+                                          <option value="fr">
+                                             <img src="images/frenchFlag.png" alt="frenchFlag"/>Français
+                                          </option>
+                                        </select>
+                                    </li>
+                                    <li>
                                        <button type="button" id="sidebarCollapse">
-                                       <img src="images/menu_icon.png" alt="#" />
+                                          <img src="images/menu_icon.png" alt="menu_icon"/>
                                        </button>
                                     </li>
                                  </ul>
@@ -111,7 +129,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="titlepage">
-                        <h2>Photo Editors</h2>
+                        <h2 id="titulo1">Photo Editors</h2>
                         <span></span>
                      </div>
                   </div>
@@ -122,7 +140,7 @@
                         <figure><img src="images/editor1.png" alt="editor1"/></figure>
                      </div>
                      <div class="game">
-                        <h3>Resizing</h3>
+                        <h3 id="program1">Resizing</h3>
                      </div>
                   </div>
                   <div class="col-md-4 padding_bottom">
@@ -130,7 +148,7 @@
                         <figure><img src="images/editor2.png" alt="editor2"/></figure>
                      </div>
                      <div class="game">
-                        <h3>Pine Tools</h3>
+                        <h3 id="program2">Pine Tools</h3>
                      </div>
                   </div>
                   <div class="col-md-4 padding_bottom">
@@ -138,7 +156,7 @@
                         <figure><img src="images/editor3.png" alt="editor3"/></figure>
                      </div>
                      <div class="game">
-                        <h3>Create Collage</h3>
+                        <h3 id="program3">Create Collage</h3>
                      </div>
                   </div>
                   <div class="col-md-4 margin_bottom1">
@@ -146,7 +164,7 @@
                         <figure><img src="images/editor4.png" alt="editor4"/></figure>
                      </div>
                      <div class="game">
-                        <h3>Watermark Remover</h3>
+                        <h3 id="program4">Watermark Remover</h3>
                      </div>
                   </div>
                   <div class="col-md-4 margin_bottom1">
@@ -154,7 +172,7 @@
                         <figure><img src="images/editor5.png" alt="editor5"/></figure>
                      </div>
                      <div class="game">
-                        <h3>Photopea</h3>
+                        <h3 id="program5">Photopea</h3>
                      </div>
                   </div>
                </div>
@@ -167,7 +185,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="titlepage">
-                        <h2>Video Converters</h2>
+                        <h2 id="titulo2">Video Converters</h2>
                         <span></span>
                      </div>
                   </div>
@@ -231,7 +249,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="titlepage">
-                        <h2>Photo Formats</h2>
+                        <h2 id="titulo3">Photo Formats</h2>
                         <span></span>
                      </div>
                   </div>
@@ -295,7 +313,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="titlepage">
-                        <h2>The Creator</h2>
+                        <h2 id="tituloCreador">The Creator</h2>
                         <span></span>
                      </div>
                   </div>
@@ -303,7 +321,7 @@
                <div class="row">
                   <div class="col-md-10 offset-md-1">
                      <div class="customer_text">
-                        <p>
+                        <p id="txtCreator">
                            Alejandro is a Spanish Telecom Engineer focus on Sound and Image Technique branch. He studied at King
                            Juan Carlos University, on the Fuenlabrada Campus, in the Region of Madrid (Spain). He developed this
                            Project with the achievement of unifying all the video converters and photo editor programs in an
@@ -322,7 +340,7 @@
                         <div class="customer_box">
                            <i><img src="images/customer.png" alt="customer"/></i>
                            <h4>Alejandro Fernández Pérez</h4>
-                           <span>Telecom Engineer & CEO of PSetAPP</span>
+                           <span id="subtitulo">Telecom Engineer & CEO of PSetAPP</span>
                         </div>
                      </div>
                   </div>
@@ -337,7 +355,7 @@
                   <div class="row">
                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
                         <div class="address">
-                           <h3>Social Networks</h3>
+                           <h3 id="rrss">Social Networks</h3>
                            <li class="Links_footer">
                               <img src="./icon/instagram.png" alt="instagram"/>
                               <img src="./icon/twitter.png" alt="twitter"/>
@@ -355,7 +373,7 @@
                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6"></div>
                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                               <div class="address">
-                                 <h3>Contact us</h3>
+                                 <h3 id="indicContact">Contact us</h3>
                                  <ul class="Links_footer">
                                     <li>
                                        <img src="./icon/email.png" alt="email"/>
