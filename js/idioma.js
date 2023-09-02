@@ -1,44 +1,50 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Obtener referencias a elementos HTML
-    const titulo1 = document.getElementById("titulo1");
-    const titulo2 = document.getElementById("titulo2");
-    const titulo3 = document.getElementById("titulo3");
-    const program1 = document.getElementById("program1");
-    const program2 = document.getElementById("program2");
-    const program3 = document.getElementById("program3");
-    const program4 = document.getElementById("program4");
-    const program5 = document.getElementById("program5");
-    const tituloCreador = document.getElementById("tituloCreador");
-    const txtCreator = document.getElementById("txtCreator");
-    const subtitulo = document.getElementById("subtitulo");
-    const rrss = document.getElementById("rrss");
-    const indicContact = document.getElementById("indicContact");
-    const idiomaSelector = document.getElementById("idioma");
-  
-    // Función para cambiar el idioma
-    function cambiarIdioma() {
-      const idiomaSeleccionado = idiomaSelector.value;
-      const archivoIdioma = document.getElementById(idiomaSeleccionado);
-  
-      titulo1.textContent = archivoIdioma.titulo1;
-      titulo2.textContent = archivoIdioma.titulo2;
-      titulo3.textContent = archivoIdioma.titulo3;
-      program1.textContent = archivoIdioma.program1;
-      program2.textContent = archivoIdioma.program2;
-      program3.textContent = archivoIdioma.program3;
-      program4.textContent = archivoIdioma.program4;
-      program5.textContent = archivoIdioma.program5;
-      tituloCreador.textContent = archivoIdioma.tituloCreador;
-      txtCreator.textContent = archivoIdioma.txtCreator;
-      subtitulo.textContent = archivoIdioma.subtitulo;
-      rrss.textContent = archivoIdioma.rrss;
-      indicContact.textContent = archivoIdioma.indicContact;
-    }
-  
-    // Asociar evento de cambio de idioma al selector
-    idiomaSelector.addEventListener("change", cambiarIdioma);
-  
-    // Inicializar la página con el idioma predeterminado
-    cambiarIdioma();
-  });
-  
+// Carga el archivo de idioma por defecto (en este caso, inglés).
+let currentLanguage = 'en';
+
+//-- Adquiere el idioma que se haya seleccionado.
+const idiomaSelector = document.getElementById("idioma");
+
+//-- Variables a traducir.
+const titulo1 = document.getElementById("titulo1");
+const titulo2 = document.getElementById("titulo2");
+const titulo3 = document.getElementById("titulo3");
+const program1 = document.getElementById("program1");
+const program2 = document.getElementById("program2");
+const program3 = document.getElementById("program3");
+const program4 = document.getElementById("program4");
+const program5 = document.getElementById("program5");
+const tituloCreador = document.getElementById("tituloCreador");
+const txtCreator = document.getElementById("txtCreator");
+const subtitulo = document.getElementById("subtitulo");
+const rrss = document.getElementById("rrss");
+const indicContact = document.getElementById("indicContact");
+
+// Manejar el cambio de idioma
+idiomaSelector.addEventListener('change', (event) => {
+  currentLanguage = event.target.value;
+  translate();
+});
+
+// Función para traducir las cadenas de texto
+function translate() {
+  fetch(`../json/${currentLanguage}.json`)
+    .then((response) => response.json())
+    .then((data) => {
+      titulo1.textContent = data.titulo1;
+      titulo2.textContent = data.titulo2;
+      titulo3.textContent = data.titulo3;
+      program1.textContent = data.program1;
+      program2.textContent = data.program2;
+      program3.textContent = data.program3;
+      program4.textContent = data.program4;
+      program5.textContent = data.program5;
+      tituloCreador.textContent = data.tituloCreador;
+      txtCreator.textContent = data.txtCreator;
+      subtitulo.textContent = data.subtitulo;
+      rrss.textContent = data.rrss;
+      indicContact.textContent = data.indicContact;
+    });
+}
+
+// Inicializa la traducción
+translate();
