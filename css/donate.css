@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(104, 70, 20);
+    color: white;
+}
+.primerInput {
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    width: max-content;
+    height: fit-content;
+}
+.segundoInput {
+    background-color: yellow;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    font-size: xx-large;
+}

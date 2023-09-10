@@ -282,6 +282,18 @@ input[type=number] { -moz-appearance:textfield; }
     text-decoration: none;
 }
 
+#donateButton {
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#donateButton:hover {
+    background-color: gold;
+}
+
 /*---------------------------------------------------------------------
     layout new css 
 ---------------------------------------------------------------------*/
