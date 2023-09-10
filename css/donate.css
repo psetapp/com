@@ -1,6 +1,8 @@
 body {
     background-color: rgb(104, 70, 20);
     color: white;
+    justify-content: center;
+    justify-items: center;
 }
 .titulo {
     text-align: center;
@@ -17,11 +19,12 @@ body {
     color: black;
     width: fit-content;
     height: fit-content;
-    font-size: large;
+    font-size: xx-large;
     text-decoration: none;
     border-radius: 7px;
 }
 textarea {
     resize: none;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
