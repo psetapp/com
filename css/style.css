@@ -277,6 +277,11 @@ input[type=number]::-webkit-outer-spin-button {
 
 input[type=number] { -moz-appearance:textfield; }
 
+.colorLetra {
+    color: white;
+    text-decoration: none;
+}
+
 /*---------------------------------------------------------------------
     layout new css 
 ---------------------------------------------------------------------*/
