@@ -2,6 +2,9 @@ body {
     background-color: rgb(104, 70, 20);
     color: white;
 }
+.titulo {
+    text-align: center;
+}
 .primerInput {
     background-color: white;
     color: black;
@@ -14,5 +17,11 @@ body {
     color: black;
     width: fit-content;
     height: fit-content;
-    font-size: xx-large;
+    font-size: large;
+    text-decoration: none;
+    border-radius: 7px;
+}
+textarea {
+    resize: none;
+    overflow: scroll;
 }
