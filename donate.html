@@ -19,30 +19,14 @@
     </head>
     <body>
         <h1 class="titulo">My Donation:</h1>
-        <br>
-        <br>
-        <input class="primerInput" id="nameDonor" type="text" placeholder="Name...."/>
-        <br>
-        <br>
-        <input class="primerInput" id="emailDonor" type="email" placeholder="Email...."/>
-        <br>
-        <br>
-        <input class="primerInput" id="cantidadDonor" type="number" placeholder="Amount...." min="5"/>€
-        <br>
-        <br>
-        <textarea class="primerInput" id="mensajeDonor" placeholder="Message...." rows="10" cols="50"></textarea>
-        <br>
-        <br>
-        <input class="primerInput" id="numTarjeta" type="text" placeholder="Number of your bank card...."/>
-        <br>
-        <br>
-        <input class="primerInput" id="dateExp" type="text" placeholder="Expiration date...."/>
-        <br>
-        <br>
-        <input class="primerInput" id="cvv" type="text" placeholder="CVV...."/>
-        <br>
-        <br>
-        <input class="segundoInput" type="submit" id="enviarCantidad" value="Send Donation"/>
+        <!-- Botón de PayPal -->
+        <form action="https://www.paypal.com/donate/?hosted_button_id=T9N2F4RWFHZW2" method="post" target="_blank">
+          <input class="primerInput" id="nameDonor" type="text" placeholder="Name & Surname...."/>
+          <input class="primerInput" id="emailDonor" type="email" placeholder="Email....">
+          <textarea class="primerInput" id="mensajeDonor" placeholder="Message...." rows="5" cols="25"></textarea>
+          <input class="primerInput" id="paypalAmount" type="number" min="5">
+          <input class="segundoInput" type="submit" id="enviarCantidad" value="Send Donation">
+        </form>
         <!-- JavaScripts Files -->
         <script src="js/donar.js"></script>
     </body>

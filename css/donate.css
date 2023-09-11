@@ -1,8 +1,7 @@
 body {
     background-color: rgb(104, 70, 20);
     color: white;
-    justify-content: center;
-    justify-items: center;
+    font-size: xx-large;
 }
 .titulo {
     text-align: center;
@@ -10,18 +9,20 @@ body {
 .primerInput {
     background-color: white;
     color: black;
-    font-size: xx-large;
+    font-size: medium;
     width: max-content;
     height: fit-content;
+    justify-content: center;
 }
 .segundoInput {
     background-color: yellow;
     color: black;
     width: fit-content;
     height: fit-content;
-    font-size: xx-large;
+    font-size: medium;
     text-decoration: none;
     border-radius: 7px;
+    justify-content: center;
 }
 textarea {
     resize: none;
