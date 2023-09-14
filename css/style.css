@@ -297,6 +297,26 @@ input[type=number] { -moz-appearance:textfield; }
     background-color: gold;
 }
 
+#btnAdelante {
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 125px;
+    height: fit-content;
+    text-decoration: none;
+}
+
+#btnAdelante:hover {
+    background-color: gold;
+}
+
+#campoEmail {
+    width: max-content;
+    height: fit-content;
+}
+
 /*---------------------------------------------------------------------
     layout new css 
 ---------------------------------------------------------------------*/
