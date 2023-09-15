@@ -317,6 +317,14 @@ input[type=number] { -moz-appearance:textfield; }
     height: fit-content;
 }
 
+.banner {
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
 /*---------------------------------------------------------------------
     layout new css 
 ---------------------------------------------------------------------*/

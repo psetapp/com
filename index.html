@@ -28,815 +28,868 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
    </head>
-   <!-- Google tag (gtag.js) -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7BK2RTWNF"></script>
-   <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-
-   gtag('config', 'G-Z7BK2RTWNF');
-   </script>
    <!-- body -->
    <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="loading" /></div>
-      </div>
-      <div class="wrapper">
-         <!-- end loader -->
-         <div class="sidebar">
-            <!-- Sidebar  -->
-            <nav id="sidebar">
-               <div id="dismiss">
-                  <i class="fa fa-arrow-left"></i>
-               </div>
-               <ul class="list-unstyled components">
-                  <li class="active">
-                     <a href="./">Home</a>
-                  </li>
-                  <li>
-                     <a href="#game1">Photo Editors</a>
-                  </li>
-                  <li>
-                     <a href="#game2">Video Converters to MP4</a>
-                  </li>
-                  <li>
-                     <a href="#game3">Audio Converters to MP3</a>
-                  </li>
-                  <li>
-                     <a href="#game4">Photo Converters to JPG</a>
-                  </li>
-                  <li>
-                     <a href="#game5">Story/Short Converters</a>
-                  </li>
-                  <li>
-                     <a href="#game6">Photo Formats</a>
-                  </li>
-                  <li>
-                     <a href="#customer">The Creator</a>
-                  </li>
-                  <li>
-                     <a href="#socialnet">Contact</a>
-                  </li>
-               </ul>
-            </nav>
+      <header>
+        <div id="myBanner" class="banner"></div>
+      </header>
+      <main>
+         <!-- loader  -->
+         <div class="loader_bg">
+            <div class="loader"><img src="images/loading.gif" alt="loading" /></div>
          </div>
-         <div id="content">
-            <!-- header -->
-            <header>
-               <!-- header inner -->
-               <div class="head_top">
-                  <div class="header">
-                     <div class="container-fluid">
-                        <div class="row">
-                           <div class="col-md-3 logo_section">
-                              <div class="full">
-                                 <div class="center-desk">
-                                    <div class="logo">
-                                       <a href="./"><img src="images/logo.png" alt="logo"></a>
-                                    </div>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <div>
-                                       <!-- Botón de Opciones -->
-                                       <button type="button" id="sidebarCollapse">
-                                          <img src="images/menu_icon.png" alt="menu_icon"/>
-                                       </button>
+         <div class="wrapper">
+            <!-- end loader -->
+            <div class="sidebar">
+               <!-- Sidebar  -->
+               <nav id="sidebar">
+                  <div id="dismiss">
+                     <i class="fa fa-arrow-left"></i>
+                  </div>
+                  <ul class="list-unstyled components">
+                     <li class="active">
+                        <a href="./">Home</a>
+                     </li>
+                     <li>
+                        <a href="#game1">Photo Editors</a>
+                     </li>
+                     <li>
+                        <a href="#game2">Video Converters to MP4</a>
+                     </li>
+                     <li>
+                        <a href="#game3">Audio Converters to MP3</a>
+                     </li>
+                     <li>
+                        <a href="#game4">Photo Converters to JPG</a>
+                     </li>
+                     <li>
+                        <a href="#game5">Story/Short Converters</a>
+                     </li>
+                     <li>
+                        <a href="#game6">Photo Formats</a>
+                     </li>
+                     <li>
+                        <a href="#game7">Document Edition</a>
+                     </li>
+                     <li>
+                        <a href="#customer">The Creator</a>
+                     </li>
+                     <li>
+                        <a href="#socialnet">Contact</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+            <div id="content">
+               <!-- header -->
+               <header>
+                  <!-- header inner -->
+                  <div class="head_top">
+                     <div class="header">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-md-3 logo_section">
+                                 <div class="full">
+                                    <div class="center-desk">
+                                       <div class="logo">
+                                          <a href="./"><img src="images/logo.png" alt="logo"></a>
+                                       </div>
+                                       <br>
+                                       <br>
+                                       <br>
+                                       <br>
+                                       <div>
+                                          <!-- Botón de Opciones -->
+                                          <button type="button" id="sidebarCollapse">
+                                             <img src="images/menu_icon.png" alt="menu_icon"/>
+                                          </button>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
-                           </div>
-                           <div class="col-md-9">
-                              <div class="right_header_info">
-                                 <ul>
-                                    <li>
-                                       <!-- Botón de PayPal -->
-                                       <form action="https://www.paypal.com/donate/?hosted_button_id=T9N2F4RWFHZW2" method="post" target="_blank">
-                                          <input id="donateButton" type="submit" value="Donate"/>
-                                       </form>
-                                    </li>
-                                 </ul>
+                              <div class="col-md-9">
+                                 <div class="right_header_info">
+                                    <ul>
+                                       <li>
+                                          <!-- Botón de PayPal -->
+                                          <form action="https://www.paypal.com/donate/?hosted_button_id=T9N2F4RWFHZW2" method="post" target="_blank">
+                                             <input id="donateButton" type="submit" value="Donate"/>
+                                          </form>
+                                       </li>
+                                    </ul>
+                                 </div>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
-               </div>
-            </header>
-            <!-- end header inner -->
-            <!-- end header -->
-            <section class="slider_section">
-               <div class="banner_main">
-                  <img src="images/bg_main.jpg" alt="bg_main"/>
-               </div>
-            </section>
-         <!-- Categories -->
-         <!-- Photo Editors -->
-         <div id="game1" class="casino">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2 id="titulo1">Photo Editors</h2>
-                        <span></span>
-                     </div>
+               </header>
+               <!-- end header inner -->
+               <!-- end header -->
+               <section class="slider_section">
+                  <div class="banner_main">
+                     <img src="images/bg_main.jpg" alt="bg_main"/>
                   </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.iloveimg.com/es/redimensionar-imagen" target="_blank"><img src="images/editor1.png" alt="editor1"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3 id="program1">Resizing</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://pinetools.com/es/partir-imagenes" target="_blank"><img src="images/editor2.png" alt="editor2"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3 id="program2">Pine Tools</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.collage.es/" target="_blank"><img src="images/editor3.png" alt="editor3"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3 id="program3">Create Collage</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.apowersoft.es/video-watermark-remover" target="_blank"><img src="images/editor4.png" alt="editor4"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3 id="program4">Watermark Remover</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.photopea.com/" target="_blank"><img src="images/editor5.png" alt="editor5"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3 id="program5">Photopea</h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end Photo Editors -->
-         <!-- Video Converters -->
-         <div id="game2" class="casino">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2 id="titulo2">Video Converters to MP4</h2>
-                        <span></span>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://snapinsta.app/es/instagram-reels-video-download" target="_blank"><img src="images/convertidor1_1.png" alt="convertidor1_1"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Instagram Reel</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://snapinsta.app/es/igtv-downloader" target="_blank"><img src="images/convertidor1_2.png" alt="convertidor1_2"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Instagram IGTV</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://snapinsta.app/es" target="_blank"><img src="images/convertidor1_3.png" alt="convertidor1_3"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Instagram Video</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://ssstwitter.com/es" target="_blank"><img src="images/convertidor2.png" alt="convertidor2"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Twitter-X Video</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://snapsave.app/es" target="_blank"><img src="images/convertidor3.png" alt="convertidor3"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Facebook Video</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://en1.yt2conv.com/youtube-to-mp4/" target="_blank"><img src="images/convertidor4.png" alt="convertidor4"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From YouTube Video</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://ssstik.io/es" target="_blank"><img src="images/convertidor5.png" alt="convertidor5"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From TikTok Video</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://pinterestdownloader.com/es" target="_blank"><img src="images/convertidor6.png" alt="convertidor6"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Pinterest Video/GIF</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://rapidsave.com/" target="_blank"><img src="images/convertidor7.png" alt="convertidor7"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Reddit Video</h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end Video Converters -->
-         <!-- Audio Converters -->
-         <div id="game3" class="casino">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2 id="titulo2">Audio Converters to MP3</h2>
-                        <span></span>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://ssstwitter.com/es/download-twitter-mp3" target="_blank"><img src="images/audio1.png" alt="audio1"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Twitter-X Audio</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://en1.yt2conv.com/" target="_blank"><img src="images/audio2.png" alt="audio2"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From YouTube Audio</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://ssstik.io/es/download-tiktok-mp3" target="_blank"><img src="images/audio3.png" alt="audio3"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From TikTok Audio</h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end Audio Converters -->
-         <!-- Photo Converters -->
-         <div id="game4" class="casino">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2 id="titulo2">Photo Converters to JPG</h2>
-                        <span></span>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://snapinsta.app/es/instagram-photo-download" target="_blank"><img src="images/foto1.png" alt="foto1"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Instagram Photo</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.fbvideodown.com/es/download-facebook-photos.html" target="_blank"><img src="images/foto2.png" alt="foto2"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Facebook Photo</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://twitload.com/es/" target="_blank"><img src="images/foto3.png" alt="foto3"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Twitter-X Photo/GIF</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://dotplays.com/es" target="_blank"><img src="images/foto4.png" alt="foto4"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Reddit Photo/GIF</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://pinterestdownloader.com/es/pinterest-image-downloader" target="_blank"><img src="images/foto5.png" alt="foto5"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Pinterest Photo/GIF</h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end Photo Converters -->
-         <!-- Story/Short Converters -->
-         <div id="game5" class="casino">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2 id="titulo2">Story/Short Converters</h2>
-                        <span></span>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://snapinsta.app/es/instagram-story-download" target="_blank"><img src="images/story1.png" alt="story1"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Instagram Story</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://ytshorts.savetube.me/es/7?id=8089562907" target="_blank"><img src="images/story2.png" alt="story2"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From YouTube Short</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 margin_bottom1">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.fbvideodown.com/es/download-facebook-stories.html" target="_blank"><img src="images/story3.png" alt="story3"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>From Facebook Story</h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end Story/Short Converters -->
-         <!-- Photo Formats -->
-         <div id="game6" class="casino">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2 id="titulo3">Photo Formats</h2>
-                        <span></span>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.iloveimg.com/es/convertir-a-jpg/webp-a-jpg" target="_blank"><img src="images/formato1.png" alt="formato1"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>WebP to JPG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/webp-png/" target="_blank"><img src="images/formato2.png" alt="formato2"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>WebP to PNG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/jpg-webp/" target="_blank"><img src="images/formato3.png" alt="formato3"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>JPG to WebP</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/png-webp/" target="_blank"><img src="images/formato4.png" alt="formato4"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>PNG to WebP</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.iloveimg.com/es/jpg-a-imagen/jpg-a-png" target="_blank"><img src="images/formato5.png" alt="formato5"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>JPG to PNG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.iloveimg.com/es/convertir-a-jpg/png-a-jpg" target="_blank"><img src="images/formato6.png" alt="formato6"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>PNG to JPG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/avif-jpg/" target="_blank"><img src="images/formato7.png" alt="formato7"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>AVIF to JPG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/avif-png/" target="_blank"><img src="images/formato8.png" alt="formato8"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>AVIF to PNG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/jpg-avif/" target="_blank"><img src="images/formato9.png" alt="formato9"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>JPG to AVIF</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/png-avif/" target="_blank"><img src="images/formato10.png" alt="formato10"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>PNG to AVIF</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://www.iloveimg.com/es/convertir-a-jpg/tiff-a-jpg" target="_blank"><img src="images/formato11.png" alt="formato11"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>TIFF to JPG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/tiff-png/" target="_blank"><img src="images/formato12.png" alt="formato12"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>TIFF to PNG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/jpg-tiff/" target="_blank"><img src="images/formato13.png" alt="formato13"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>JPG to TIFF</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/png-tiff/" target="_blank"><img src="images/formato14.png" alt="formato14"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>PNG to TIFF</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/svg-jpg/" target="_blank"><img src="images/formato15.png" alt="formato15"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>SVG to JPG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://svgtopng.com/es/" target="_blank"><img src="images/formato16.png" alt="formato16"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>SVG to PNG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/jpg-svg/" target="_blank"><img src="images/formato17.png" alt="formato17"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>JPG to SVG</h3>
-                     </div>
-                  </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure>
-                           <a href="https://convertio.co/es/png-svg/" target="_blank"><img src="images/formato18.png" alt="formato18"/></a>
-                        </figure>
-                     </div>
-                     <div class="game">
-                        <h3>PNG to SVG</h3>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end Photo Formats -->
-         <!-- Acceso Restringido -->
-         <div id="game7" class="casino">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2 id="titulo3">Restricted Access</h2>
-                        <span></span>
-                     </div>
-                  </div>
-               </div>
-               <!-- Botón Suscribirse -->
-               <div id="paypal-button-container-P-6TH46096VJ9624050MUAGESQ"></div>
-               <!-- Botón Acceder a Página Restringida -->
-               <form>
-                  <input id="campoEmail" type="email" placeholder="Email...."/>
-                  <input id="btnAdelante" type="submit" value="Go ahead"/>
-               </form>
-            </div>
-         </div>
-         <!-- customer -->
-         <div id="customer"  class="customer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2 id="tituloCreador">The Creator</h2>
-                        <span></span>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-10 offset-md-1">
-                     <div class="customer_text">
-                        <p id="txtCreator">
-                           Alejandro is a Spanish Telecom Engineer focus on sound and image technique branch. He studied at King
-                           Juan Carlos University, on the Fuenlabrada Campus, in the Region of Madrid (Spain). He developed this
-                           Project with the achievement of unifying all the video converters and photo editor programs in an
-                           intuitive webpage. It did the creation of PSetAPP, your Multimedia Configurator. What are you waiting
-                           for joining us?
-                           <br>
-                           <br>
-                           <q>
-                              The life is based on creating projects and goals, without them, we are
-                           <br>
-                              empty humans
-                           </q> - Alejandro, August 2023.
-                           <br>
-                           <br>
-                        </p>
-                        <div class="customer_box">
-                           <i><img src="images/customer.png" alt="customer"/></i>
-                           <h4>Alejandro Fernández Pérez</h4>
-                           <span id="subtitulo">Telecom Engineer & CEO of PSetAPP</span>
-                           <br>
-                           <img src="./icon/instagram.png" alt="instagram"/>
-                           <span><a class="colorLetra" href="https://www.instagram.com/soyalexokei/" target="_blank">@soyalexokei</a></span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end customer -->
-         <!--  footer -->
-         <footer id="socialnet">
-            <div class="footer">
+               </section>
+            <!-- Categories -->
+            <!-- Photo Editors -->
+            <div id="game1" class="casino">
                <div class="container">
                   <div class="row">
-                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
-                        <div class="address">
-                           <h3 id="rrss">Social Networks</h3>
-                           <li class="Links_footer">
-                              <img src="./icon/instagram.png" alt="instagram"/>
-                              <img src="./icon/twitter.png" alt="twitter"/>
-                              <img src="./icon/facebook.png" alt="facebook"/>
-                              <img src="./icon/youtube.png" alt="youtube"/>
-                              <img src="./icon/tiktok.png" alt="tiktok"/>
-                              <img src="./icon/pinterest.png" alt="pinterest"/>
-                              <img src="./icon/reddit.png" alt="reddit"/>
-                              <img src="./icon/bereal.png" alt="bereal"/>
-                           </li>
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2 id="titulo1">Photo Editors</h2>
+                           <span></span>
                         </div>
                      </div>
-                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                        <div class="row">
-                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6"></div>
-                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                              <div class="address">
-                                 <h3 id="indicContact">Contact us</h3>
-                                 <ul class="Links_footer">
-                                    <li>
-                                       <img src="./icon/email.png" alt="email"/>
-                                       <span class="colorLetra">psetapp@gmail.com</span>
-                                    </li>
-                                 </ul>
-                              </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.iloveimg.com/es/redimensionar-imagen" target="_blank"><img src="images/editor1.png" alt="editor1"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3 id="program1">Resizing</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://pinetools.com/es/partir-imagenes" target="_blank"><img src="images/editor2.png" alt="editor2"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3 id="program2">Pine Tools</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.collage.es/" target="_blank"><img src="images/editor3.png" alt="editor3"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3 id="program3">Create Collage</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.apowersoft.es/video-watermark-remover" target="_blank"><img src="images/editor4.png" alt="editor4"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3 id="program4">Watermark Remover</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.photopea.com/" target="_blank"><img src="images/editor5.png" alt="editor5"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3 id="program5">Photopea</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end Photo Editors -->
+            <!-- Video Converters -->
+            <div id="game2" class="casino">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2 id="titulo2">Video Converters to MP4</h2>
+                           <span></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://snapinsta.app/es/instagram-reels-video-download" target="_blank"><img src="images/convertidor1_1.png" alt="convertidor1_1"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Instagram Reel</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://snapinsta.app/es/igtv-downloader" target="_blank"><img src="images/convertidor1_2.png" alt="convertidor1_2"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Instagram IGTV</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://snapinsta.app/es" target="_blank"><img src="images/convertidor1_3.png" alt="convertidor1_3"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Instagram Video</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://ssstwitter.com/es" target="_blank"><img src="images/convertidor2.png" alt="convertidor2"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Twitter-X Video</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://snapsave.app/es" target="_blank"><img src="images/convertidor3.png" alt="convertidor3"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Facebook Video</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://en1.yt2conv.com/youtube-to-mp4/" target="_blank"><img src="images/convertidor4.png" alt="convertidor4"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From YouTube Video</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://ssstik.io/es" target="_blank"><img src="images/convertidor5.png" alt="convertidor5"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From TikTok Video</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://pinterestdownloader.com/es" target="_blank"><img src="images/convertidor6.png" alt="convertidor6"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Pinterest Video/GIF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://rapidsave.com/" target="_blank"><img src="images/convertidor7.png" alt="convertidor7"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Reddit Video</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end Video Converters -->
+            <!-- Audio Converters -->
+            <div id="game3" class="casino">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2 id="titulo2">Audio Converters to MP3</h2>
+                           <span></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://ssstwitter.com/es/download-twitter-mp3" target="_blank"><img src="images/audio1.png" alt="audio1"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Twitter-X Audio</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://en1.yt2conv.com/" target="_blank"><img src="images/audio2.png" alt="audio2"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From YouTube Audio</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://ssstik.io/es/download-tiktok-mp3" target="_blank"><img src="images/audio3.png" alt="audio3"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From TikTok Audio</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end Audio Converters -->
+            <!-- Photo Converters -->
+            <div id="game4" class="casino">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2 id="titulo2">Photo Converters to JPG</h2>
+                           <span></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://snapinsta.app/es/instagram-photo-download" target="_blank"><img src="images/foto1.png" alt="foto1"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Instagram Photo</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.fbvideodown.com/es/download-facebook-photos.html" target="_blank"><img src="images/foto2.png" alt="foto2"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Facebook Photo</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://twitload.com/es/" target="_blank"><img src="images/foto3.png" alt="foto3"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Twitter-X Photo/GIF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://dotplays.com/es" target="_blank"><img src="images/foto4.png" alt="foto4"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Reddit Photo/GIF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://pinterestdownloader.com/es/pinterest-image-downloader" target="_blank"><img src="images/foto5.png" alt="foto5"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Pinterest Photo/GIF</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end Photo Converters -->
+            <!-- Story/Short Converters -->
+            <div id="game5" class="casino">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2 id="titulo2">Story/Short Converters</h2>
+                           <span></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://snapinsta.app/es/instagram-story-download" target="_blank"><img src="images/story1.png" alt="story1"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Instagram Story</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://ytshorts.savetube.me/es/7?id=8089562907" target="_blank"><img src="images/story2.png" alt="story2"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From YouTube Short</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 margin_bottom1">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.fbvideodown.com/es/download-facebook-stories.html" target="_blank"><img src="images/story3.png" alt="story3"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>From Facebook Story</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end Story/Short Converters -->
+            <!-- Photo Formats -->
+            <div id="game6" class="casino">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2 id="titulo3">Photo Formats</h2>
+                           <span></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.iloveimg.com/es/convertir-a-jpg/webp-a-jpg" target="_blank"><img src="images/formato1.png" alt="formato1"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>WebP to JPG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/webp-png/" target="_blank"><img src="images/formato2.png" alt="formato2"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>WebP to PNG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/jpg-webp/" target="_blank"><img src="images/formato3.png" alt="formato3"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>JPG to WebP</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/png-webp/" target="_blank"><img src="images/formato4.png" alt="formato4"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>PNG to WebP</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.iloveimg.com/es/jpg-a-imagen/jpg-a-png" target="_blank"><img src="images/formato5.png" alt="formato5"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>JPG to PNG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.iloveimg.com/es/convertir-a-jpg/png-a-jpg" target="_blank"><img src="images/formato6.png" alt="formato6"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>PNG to JPG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/avif-jpg/" target="_blank"><img src="images/formato7.png" alt="formato7"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>AVIF to JPG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/avif-png/" target="_blank"><img src="images/formato8.png" alt="formato8"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>AVIF to PNG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/jpg-avif/" target="_blank"><img src="images/formato9.png" alt="formato9"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>JPG to AVIF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/png-avif/" target="_blank"><img src="images/formato10.png" alt="formato10"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>PNG to AVIF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.iloveimg.com/es/convertir-a-jpg/tiff-a-jpg" target="_blank"><img src="images/formato11.png" alt="formato11"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>TIFF to JPG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/tiff-png/" target="_blank"><img src="images/formato12.png" alt="formato12"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>TIFF to PNG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/jpg-tiff/" target="_blank"><img src="images/formato13.png" alt="formato13"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>JPG to TIFF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/png-tiff/" target="_blank"><img src="images/formato14.png" alt="formato14"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>PNG to TIFF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/svg-jpg/" target="_blank"><img src="images/formato15.png" alt="formato15"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>SVG to JPG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://svgtopng.com/es/" target="_blank"><img src="images/formato16.png" alt="formato16"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>SVG to PNG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/jpg-svg/" target="_blank"><img src="images/formato17.png" alt="formato17"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>JPG to SVG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://convertio.co/es/png-svg/" target="_blank"><img src="images/formato18.png" alt="formato18"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>PNG to SVG</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end Photo Formats -->
+            <!-- Document Edition -->
+            <div id="game7" class="casino">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2 id="titulo2">Document Edition</h2>
+                           <span></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.ilovepdf.com/es/pdf_a_word" target="_blank"><img src="images/texto1.png" alt="texto1"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>PDF to WORD</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.ilovepdf.com/es/word_a_pdf" target="_blank"><img src="images/texto2.png" alt="texto2"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>WORD to PDF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.ilovepdf.com/pdf_to_jpg" target="_blank"><img src="images/texto3.png" alt="texto3"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>PDF to JPG</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.ilovepdf.com/es/jpg_a_pdf" target="_blank"><img src="images/texto4.png" alt="texto4"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>JPG to PDF</h3>
+                        </div>
+                     </div>
+                     <div class="col-md-4 padding_bottom">
+                        <div class="game_box">
+                           <figure>
+                              <a href="https://www.ilovepdf.com/es/editar-pdf" target="_blank"><img src="images/texto5.png" alt="texto5"/></a>
+                           </figure>
+                        </div>
+                        <div class="game">
+                           <h3>Online PDF Edition</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end Document Edition -->
+            <!-- customer -->
+            <div id="customer"  class="customer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage">
+                           <h2 id="tituloCreador">The Creator</h2>
+                           <span></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-10 offset-md-1">
+                        <div class="customer_text">
+                           <p id="txtCreator">
+                              Alejandro is a Spanish Telecom Engineer focus on sound and image technique branch. He studied at King
+                              Juan Carlos University, on the Fuenlabrada Campus, in the Region of Madrid (Spain). He developed this
+                              Project with the achievement of unifying all the video converters and photo editor programs in an
+                              intuitive webpage. It did the creation of PSetAPP, your Multimedia Configurator. What are you waiting
+                              for joining us?
+                              <br>
+                              <br>
+                              <q>
+                                 The life is based on creating projects and goals, without them, we are
+                              <br>
+                                 empty humans
+                              </q> - Alejandro, August 2023.
+                              <br>
+                              <br>
+                           </p>
+                           <div class="customer_box">
+                              <i><img src="images/customer.png" alt="customer"/></i>
+                              <h4>Alejandro Fernández Pérez</h4>
+                              <span id="subtitulo">Telecom Engineer & CEO of PSetAPP</span>
+                              <br>
+                              <img src="./icon/instagram.png" alt="instagram"/>
+                              <span><a class="colorLetra" href="https://www.instagram.com/soyalexokei/" target="_blank">@soyalexokei</a></span>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="copyright">
+            </div>
+            <!-- end customer -->
+            <!--  footer -->
+            <footer id="socialnet">
+               <div class="footer">
                   <div class="container">
-                     <p>Copyright 2023 - All Right Reserved</p>
+                     <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                           <div class="address">
+                              <h3 id="rrss">Social Networks</h3>
+                              <li class="Links_footer">
+                                 <img src="./icon/instagram.png" alt="instagram"/>
+                                 <img src="./icon/twitter.png" alt="twitter"/>
+                                 <img src="./icon/facebook.png" alt="facebook"/>
+                                 <img src="./icon/youtube.png" alt="youtube"/>
+                                 <img src="./icon/tiktok.png" alt="tiktok"/>
+                                 <img src="./icon/pinterest.png" alt="pinterest"/>
+                                 <img src="./icon/reddit.png" alt="reddit"/>
+                                 <img src="./icon/bereal.png" alt="bereal"/>
+                              </li>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="row">
+                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6"></div>
+                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                 <div class="address">
+                                    <h3 id="indicContact">Contact us</h3>
+                                    <ul class="Links_footer">
+                                       <li>
+                                          <img src="./icon/email.png" alt="email"/>
+                                          <span class="colorLetra">psetapp@gmail.com</span>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="copyright">
+                     <div class="container">
+                        <p>Copyright 2023 - All Right Reserved</p>
+                     </div>
                   </div>
                </div>
-            </div>
-         </footer>
-         <!-- end footer -->
-      </div>
-      <div class="overlay"></div>
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="https://www.paypal.com/sdk/js?client-id=AWH9ef7hn2hxKRIvN8LnS_SOzbrB4DaUYFD2etd-_m6lwMrOy1ikXI9tRnrTQ4JIdOjN5PXIunmGQG2J&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-      <script>
-         paypal.Buttons({
-             style: {
-                 shape: 'pill',
-                 color: 'silver',
-                 layout: 'vertical',
-                 label: 'subscribe'
-             },
-             createSubscription: function(data, actions) {
-               return actions.subscription.create({
-                 /* Creates the subscription */
-                 plan_id: 'P-6TH46096VJ9624050MUAGESQ'
+            </footer>
+            <!-- end footer -->
+         </div>
+         <div class="overlay"></div>
+         <!-- Javascript files-->
+         <script src="js/jquery.min.js"></script>
+         <script src="js/popper.min.js"></script>
+         <script src="js/bootstrap.bundle.min.js"></script>
+         <script src="js/jquery-3.0.0.min.js"></script>
+         <script src="./js/banner.js"></script>
+         <script src="https://www.paypal.com/sdk/js?client-id=AWH9ef7hn2hxKRIvN8LnS_SOzbrB4DaUYFD2etd-_m6lwMrOy1ikXI9tRnrTQ4JIdOjN5PXIunmGQG2J&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+         <script>
+            paypal.Buttons({
+               style: {
+                  shape: 'pill',
+                  color: 'silver',
+                  layout: 'vertical',
+                  label: 'subscribe'
+               },
+               createSubscription: function(data, actions) {
+                  return actions.subscription.create({
+                  /* Creates the subscription */
+                  plan_id: 'P-6TH46096VJ9624050MUAGESQ'
+                  });
+               },
+               onApprove: function(data, actions) {
+                  alert(data.subscriptionID); // You can add optional success message for the subscriber here
+               }
+            }).render('#paypal-button-container-P-6TH46096VJ9624050MUAGESQ'); // Renders the PayPal button
+         </script>
+         <!-- sidebar -->
+         <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+         <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+         <script src="js/custom.js"></script>
+         <script type="text/javascript">
+            $(document).ready(function() {
+               $("#sidebar").mCustomScrollbar({
+                  theme: "minimal"
                });
-             },
-             onApprove: function(data, actions) {
-               alert(data.subscriptionID); // You can add optional success message for the subscriber here
-             }
-         }).render('#paypal-button-container-P-6TH46096VJ9624050MUAGESQ'); // Renders the PayPal button
-       </script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-       <script src="js/custom.js"></script>
-      <script type="text/javascript">
-         $(document).ready(function() {
-             $("#sidebar").mCustomScrollbar({
-                 theme: "minimal"
-             });
-         
-             $('#dismiss, .overlay').on('click', function() {
-                 $('#sidebar').removeClass('active');
-                 $('.overlay').removeClass('active');
-             });
-         
-             $('#sidebarCollapse').on('click', function() {
-                 $('#sidebar').addClass('active');
-                 $('.overlay').addClass('active');
-                 $('.collapse.in').toggleClass('in');
-                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-             });
-         });
-      </script>
-      <script>
-         $(document).ready(function() {
-             $(".fancybox").fancybox({
-                 openEffect: "none",
-                 closeEffect: "none"
-             });
-         
-             $(".zoom").hover(function() {
-         
-                 $(this).addClass('transition');
-             }, function() {
-         
-                 $(this).removeClass('transition');
-             });
-         });
-      </script>
-     
+            
+               $('#dismiss, .overlay').on('click', function() {
+                  $('#sidebar').removeClass('active');
+                  $('.overlay').removeClass('active');
+               });
+            
+               $('#sidebarCollapse').on('click', function() {
+                  $('#sidebar').addClass('active');
+                  $('.overlay').addClass('active');
+                  $('.collapse.in').toggleClass('in');
+                  $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+               });
+            });
+         </script>
+         <script>
+            $(document).ready(function() {
+               $(".fancybox").fancybox({
+                  openEffect: "none",
+                  closeEffect: "none"
+               });
+            
+               $(".zoom").hover(function() {
+            
+                  $(this).addClass('transition');
+               }, function() {
+            
+                  $(this).removeClass('transition');
+               });
+            });
+         </script>
+         <!-- Google tag (gtag.js) -->
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7BK2RTWNF"></script>
+         <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-Z7BK2RTWNF');
+         </script>
+      </main>
    </body>
 </html>
-
