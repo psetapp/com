@@ -848,6 +848,10 @@ ul.loca li a {
     border: none;
 }
 
+#indice {
+    display: none;
+}
+
 #sidebar .sidebar-header {
     padding: 20px;
     background: #6d7fcc;

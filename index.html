@@ -34,51 +34,8 @@
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="loading" /></div>
       </div>
+      <!-- end loader -->
       <div class="wrapper">
-         <!-- end loader -->
-         <div class="sidebar">
-            <!-- Sidebar  -->
-            <nav id="sidebar">
-               <div id="dismiss">
-                  <i class="fa fa-arrow-left"></i>
-               </div>
-               <ul class="list-unstyled components">
-                  <li class="active">
-                     <a href="./">Home</a>
-                  </li>
-                  <li>
-                     <a href="#game1">Photo Editors</a>
-                  </li>
-                  <li>
-                     <a href="#game2">Video Converters to MP4</a>
-                  </li>
-                  <li>
-                     <a href="#game3">Audio Converters to MP3</a>
-                  </li>
-                  <li>
-                     <a href="#game4">Photo Converters to JPG</a>
-                  </li>
-                  <li>
-                     <a href="#game5">Story/Short Converters</a>
-                  </li>
-                  <li>
-                     <a href="#game6">Photo Formats</a>
-                  </li>
-                  <li>
-                     <a href="#game7">Document Edition</a>
-                  </li>
-                  <li>
-                     <a href="#game8">Learn Photography & Video with Canon</a>
-                  </li>
-                  <li>
-                     <a href="#customer">The Creator</a>
-                  </li>
-                  <li>
-                     <a href="#socialnet">Contact</a>
-                  </li>
-               </ul>
-            </nav>
-         </div>
          <div id="content">
             <!-- header -->
             <header>
@@ -102,6 +59,52 @@
                                        <button type="button" id="sidebarCollapse">
                                           <img src="images/menu_icon.png" alt="menu_icon"/>
                                        </button>
+                                       <div class="sidebar" id="indice">
+                                          <!-- Sidebar  -->
+                                          <nav id="sidebar">
+                                             <div id="dismiss">
+                                                <i class="fa fa-arrow-left"></i>
+                                             </div>
+                                             <ul class="list-unstyled components">
+                                                <li class="active">
+                                                   <a href="./">Home</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game1">Photo Editors</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game2">Video Converters</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game3">Audio Converters</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game4">Photo Converters</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game5">Story/Short Converters</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game6">Photo Formats</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game7">Document Edition</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game8">Learn Canon</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#game9">Assembly with Rufus</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#customer">The Creator</a>
+                                                </li>
+                                                <li class="active">
+                                                   <a href="#socialnet">Contact</a>
+                                                </li>
+                                             </ul>
+                                          </nav>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -735,12 +738,7 @@
                   </div>
                </div>
                <div class="row">
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure></figure>
-                     </div>
-                     <div class="game"></div>
-                  </div>
+                  <div class="col-md-4 padding_bottom"></div>
                   <div class="col-md-4 padding_bottom">
                      <div class="game_box">
                         <figure>
@@ -751,16 +749,39 @@
                         <h3>Download Canon Book</h3>
                      </div>
                   </div>
-                  <div class="col-md-4 padding_bottom">
-                     <div class="game_box">
-                        <figure></figure>
-                     </div>
-                     <div class="game"></div>
-                  </div>
+                  <div class="col-md-4 padding_bottom"></div>
                </div>
             </div>
          </div>
          <!-- end Learn Photography & Video with Canon -->
+         <!-- Operating System Assembly with Rufus -->
+         <div id="game9" class="casino">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2 id="titulo2">Operating System Assembly with Rufus</h2>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-4 padding_bottom"></div>
+                  <div class="col-md-4 padding_bottom">
+                     <div class="game_box">
+                        <figure>
+                           <a href="./files/rufus-4.2.exe" target="_blank"><img src="images/montaje1.png" alt="montaje1"/></a>
+                        </figure>
+                     </div>
+                     <div class="game">
+                        <h3>Download Rufus 4.2</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-4 padding_bottom"></div>
+               </div>
+            </div>
+         </div>
+         <!-- end Operating System Assembly with Rufus -->
          <!-- customer -->
          <div id="customer"  class="customer">
             <div class="container">
@@ -916,14 +937,6 @@
             });
          });
       </script>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7BK2RTWNF"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-Z7BK2RTWNF');
-      </script>
+      <script src="menu.js"></script>
    </body>
 </html>
