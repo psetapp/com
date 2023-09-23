@@ -846,10 +846,7 @@ ul.loca li a {
     background: transparent;
     padding: 0;
     border: none;
-}
-
-#indice {
-    display: none;
+    cursor: pointer;
 }
 
 #sidebar .sidebar-header {
