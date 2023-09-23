@@ -9,6 +9,4 @@ function toggleMenu() {
         indice.style.display = 'none'; // Oculta el menú
     }
 }
-
-sidebarCollapseButton.addEventListener('click', toggleMenu);
 sidebarCollapseButton.addEventListener('touchstart', toggleMenu);
