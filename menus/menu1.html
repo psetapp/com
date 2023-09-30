@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Photo Editors of PSetAPP</title>
+      <title>Photo Editors by PSetAPP</title>
       <meta name="keywords" content="PSetAPP" />
       <meta name="description" content="Photo Settings APP" />
       <meta name="author" content="Alejandro Fernández Pérez" />
@@ -93,9 +93,78 @@
                             <h3 id="program5">Photopea</h3>
                         </div>
                     </div>
+                    <div class="col-md-4 margin_bottom1"></div>
+                    <div class="col-md-4 margin_bottom1"></div>
+                    <div class="col-md-4 margin_bottom1"></div>
                 </div>
                 </div>
             </div>
             <!-- end Photo Editors -->
         </div>
+        <div class="overlay"></div>
+      <!-- Javascript files-->
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery-3.0.0.min.js"></script>
+      <script src="https://www.paypal.com/sdk/js?client-id=AWH9ef7hn2hxKRIvN8LnS_SOzbrB4DaUYFD2etd-_m6lwMrOy1ikXI9tRnrTQ4JIdOjN5PXIunmGQG2J&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+      <script>
+         paypal.Buttons({
+            style: {
+               shape: 'pill',
+               color: 'silver',
+               layout: 'vertical',
+               label: 'subscribe'
+            },
+            createSubscription: function(data, actions) {
+               return actions.subscription.create({
+               /* Creates the subscription */
+               plan_id: 'P-6TH46096VJ9624050MUAGESQ'
+               });
+            },
+            onApprove: function(data, actions) {
+               alert(data.subscriptionID); // You can add optional success message for the subscriber here
+            }
+         }).render('#paypal-button-container-P-6TH46096VJ9624050MUAGESQ'); // Renders the PayPal button
+      </script>
+      <!-- sidebar -->
+      <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="../js/custom.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+               theme: "minimal"
+            });
+         
+            $('#dismiss, .overlay').on('click', function() {
+               $('#sidebar').removeClass('active');
+               $('.overlay').removeClass('active');
+            });
+         
+            $('#sidebarCollapse').on('click', function() {
+               $('#sidebar').addClass('active');
+               $('.overlay').addClass('active');
+               $('.collapse.in').toggleClass('in');
+               $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+         });
+      </script>
+      <script>
+         $(document).ready(function() {
+            $(".fancybox").fancybox({
+               openEffect: "none",
+               closeEffect: "none"
+            });
+         
+            $(".zoom").hover(function() {
+         
+               $(this).addClass('transition');
+            }, function() {
+         
+               $(this).removeClass('transition');
+            });
+         });
+      </script>
    </body>
+</html>
