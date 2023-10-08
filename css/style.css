@@ -328,6 +328,9 @@ input[type=number] { -moz-appearance:textfield; }
 /*---------------------------------------------------------------------
     layout new css 
 ---------------------------------------------------------------------*/
+.row_inline {
+    display: inline-block;
+}
 
 .container {
     max-width: 1170px;
@@ -498,6 +501,11 @@ input[type=number] { -moz-appearance:textfield; }
 
 .casino .game_box figure img {
     width: 100%;
+}
+
+figure {
+    text-align: center;
+    font-size: xx-large;
 }
 
 .padding_bottom {
