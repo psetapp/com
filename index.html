@@ -45,17 +45,16 @@
                                     <li class="active">
                                        <a href="./"><img src="images/logo.png" alt="logo"></a>
                                     </li>
-                                 </ul>
-                              </div>
-                              <div class="right_header_info">
-                                 <ul>
-                                    <li>
+                                    <li class="active">
                                        <!-- Botón de PayPal -->
                                        <form action="https://www.paypal.com/donate/?hosted_button_id=T9N2F4RWFHZW2" method="post" target="_blank">
                                           <input id="donateButton" type="submit" value="Donate"/>
                                        </form>
                                     </li>
                                  </ul>
+                              </div>
+                              <div class="right_header_info">
+                                 <div id="google_translate_element" class="google"></div>
                               </div>
                            </div>
                         </div>
@@ -255,6 +254,12 @@
       </div>
       <div class="overlay"></div>
       <!-- Javascript files-->
+      <script type="text/javascript">
+         function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+                 }
+      </script>
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
