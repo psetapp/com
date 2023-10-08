@@ -330,6 +330,7 @@ input[type=number] { -moz-appearance:textfield; }
 ---------------------------------------------------------------------*/
 .row_inline {
     display: inline-block;
+    margin-left: 50px;
 }
 
 .container {
