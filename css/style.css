@@ -328,14 +328,9 @@ input[type=number] { -moz-appearance:textfield; }
 /*---------------------------------------------------------------------
     layout new css 
 ---------------------------------------------------------------------*/
-.row_inline_left {
+.row_inline {
     display: inline-block;
     margin-left: 100px;
-}
-
-.row_inline_right {
-    float: right;
-    margin-right: 50px;
 }
 
 .container {
