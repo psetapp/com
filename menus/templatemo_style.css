@@ -52,8 +52,10 @@ img {
 	font-size: 1px;	
 }
 
-.buy_now_button {
+.btnDescargaLibros {
 	background-color: gold;
+	color: black;
+	border-radius: 3px;
 }
 
 .buy_now_button a{
@@ -134,7 +136,11 @@ img {
 	margin-bottom: 15px;
 }
 
-.enLinea-cuadro {
+.enLinea-cuadro ul {
+	list-style: none;
+}
+
+.enLinea-cuadro ul li {
 	display: inline-block;
 }
 
