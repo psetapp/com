@@ -88,7 +88,7 @@ img {
 /* content */
 #templatemo_content {
 	clear: both;
-	width: 1200px;
+	width: 2100px;
 	padding: 0 20px;
 }
 
@@ -98,7 +98,7 @@ img {
 
 #templatemo_content_right .templatemo_product_box {
 	float: left;
-	width: 400px;
+	width: 700px;
 	height: max-content;
 	padding: 10px;
 	border: 1px solid #333;
@@ -126,7 +126,7 @@ img {
 
 .templatemo_product_box .product_info {
 	float: center;
-	width: 275px;
+	width: 300px;
 }
 
 .product_info p {
