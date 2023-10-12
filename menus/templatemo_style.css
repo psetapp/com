@@ -79,10 +79,9 @@ img {
 }
 
 #templatemo_container{
-	width: 960px;
+	width: 2300px;
 	margin: 0 auto;
 	padding: 0 10px;
-	background: #1c1c1b url(images/templatemo_bg.jpg) repeat-y;
 }
 
 /* content */
