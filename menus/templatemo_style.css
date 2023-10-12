@@ -12,8 +12,8 @@ body {
 	line-height: 1.5em;
 	font-family: Verdana, Arial, san-serif;
 	font-size: 11px;
-	color: #ffffff;
-	background: #4b4743;
+	color: white;
+	background: black;
 }
 
 a:link, a:visited { color: #e6e154; text-decoration: none; font-weight: bold;} 
@@ -59,7 +59,6 @@ img {
 	width: 100px;
 	padding: 4px 0 5px 0;
 	margin-bottom: 10px; 
-	background: url(images/templatemo_btn_02.jpg) no-repeat;
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
@@ -72,7 +71,6 @@ img {
 	width: 100px;
 	padding: 4px 0 5px 0;
 	margin-bottom: 10px; 
-	background: url(images/templatemo_btn_01.jpg) no-repeat;
 	color: #ffffff;
 	font-weight: bold;
 	text-decoration: none;
