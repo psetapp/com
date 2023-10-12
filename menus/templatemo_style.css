@@ -88,7 +88,7 @@ img {
 /* content */
 #templatemo_content {
 	clear: both;
-	width: 1000px;
+	width: 1200px;
 	padding: 0 20px;
 }
 
@@ -98,7 +98,7 @@ img {
 
 #templatemo_content_right .templatemo_product_box {
 	float: left;
-	width: 320px;
+	width: 400px;
 	height: max-content;
 	padding: 10px;
 	border: 1px solid #333;
@@ -108,57 +108,25 @@ img {
 	padding: 10px;
 	margin: 0 0 20px 0;
 	font-size: 15px;
+	font-weight: normal;
 	color: #cbc750;
 	background: url(images/templatemo_h1_bg.jpg);
 }
 
-#templatemo_content_right h2 {
-	padding: 0 0 0 0;
-	margin: 0 0 20px 0;
-	font-size: 12px;
-	color: #e6e154;
-}
-
-#templatemo_content_right h3 {
-	padding: 0;
-	margin: 0 0 20px 0;
-	font-size: 18px;
-	color: #85391f;
-}
-
-#templatemo_content_right ul {
-	margin: 0 0 20px 0;
-	padding: 0 0 0 20px;
-	list-style: none;
-}
-
-#templatemo_content_right li {
-	padding: 0 0 3px 0;
-}
-
-#templatemo_content_right .image_panel {
-	float: left;
-	width: 100px;
-	margin-right: 20px;
-}
-
 #templatemo_content_right p {
 	text-align: justify;
+	float: center;
 	padding: 0 0 8px 0;
 }
 
-.templatemo_product_box h1 span {
-	font-weight: normal;
-}
-
 .templatemo_product_box img {
-	float: left;
+	float: center;
 	margin-right: 20px;
 }
 
 .templatemo_product_box .product_info {
-	float: left;
-	width: 210px;
+	float: center;
+	width: 275px;
 }
 
 .product_info p {
