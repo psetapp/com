@@ -52,6 +52,10 @@ img {
 	font-size: 1px;	
 }
 
+.buy_now_button {
+	background-color: gold;
+}
+
 .buy_now_button a{
 	clear: both;
 	text-align: center;
@@ -77,7 +81,7 @@ img {
 }
 
 #templatemo_container{
-	width: 2300px;
+	width: 1800px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -85,7 +89,7 @@ img {
 /* content */
 #templatemo_content {
 	clear: both;
-	width: 2100px;
+	width: 1800px;
 	padding: 0 20px;
 }
 
@@ -95,7 +99,7 @@ img {
 
 #templatemo_content_right .templatemo_product_box {
 	float: left;
-	width: 700px;
+	width: 600px;
 	height: max-content;
 	padding: 10px;
 	border: 1px solid #333;
@@ -123,11 +127,15 @@ img {
 
 .templatemo_product_box .product_info {
 	float: center;
-	width: 300px;
+	width: 550px;
 }
 
 .product_info p {
 	margin-bottom: 15px;
+}
+
+.enLinea-cuadro {
+	display: inline-block;
 }
 
 /* end of content */
