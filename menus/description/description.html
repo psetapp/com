@@ -2,25 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BookStore of PSetAPP</title>
+<title>Description</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <!-- bootstrap css -->
-<link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css"/>
 <!-- style css -->
-<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+<link rel="stylesheet" href="../../css/style.css" type="text/css"/>
 <!-- Responsive-->
-<link rel="stylesheet" href="../css/responsive.css" type="text/css"/>
-<link rel="stylesheet" href="./templatemo_style.css" type="text/css"/>
+<link rel="stylesheet" href="../../css/responsive.css" type="text/css"/>
+<link rel="stylesheet" href="../templatemo_style.css" type="text/css"/>
 <!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css" type="text/css"/>
+<link rel="stylesheet" href="../../css/jquery.mCustomScrollbar.min.css" type="text/css"/>
 <!-- Tweaks for older IEs-->
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"/>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <!-- favicon -->
-<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+<link rel="icon" href="../../favicon.ico" type="image/x-icon" />
 </head>
 <!-- body -->
 <body class="main-layout">
@@ -34,7 +34,7 @@
                    <div class="container-fluid">
                       <div class="row">
                          <div class="row_inline">
-                            <a href="../index.html"><img src="./images/logo.png" alt="logo"/></a>
+                            <a href="../../index.html"><img src="../images/logo.png" alt="logo"/></a>
                          </div>
                          <div class="row_inline">
                             <input name="prodId" type="hidden" value="xm234jq"/>
@@ -46,7 +46,7 @@
                             <input name="prodId" type="hidden" value="xm234jq"/>
                          </div>
                          <div class="row_inline">
-                            <form action="./creator.html" method="GET" target="_blank">
+                            <form action="../creator.html" method="GET" target="_blank">
                                   <input id="aboutBtn" type="submit" value="The Creator"/>
                             </form>
                          </div>
@@ -68,50 +68,17 @@
           <!-- end header -->
           <section class="slider_section">
              <div class="banner_main">
-                <img src="images/bg_main.png" alt="bg_main"/>
+                <img src="../images/bg_main.png" alt="bg_main"/>
              </div>
           </section>
           <div id="templatemo_container">
             <div id="templatemo_content">
                 <div id="templatemo_content_right">
                     <div class="templatemo_product_box">
-                        <h1>The Multiorgasmic Man (Spanish)</h1>
-                        <img src="images/libro1.png" alt="libro1"/>
+                        <h1 id="titulo"></h1>
                         <div class="product_info">
-                            <p>Authors: Mantak Chia & Douglas Arava</p>
-                            <br>
-                            <p>Category: Personal development</p>
-                            <br>
-                            <div class="buy_now_button"><a href="./description/description.html" id="chooseDescrip" value="descripcion1" target="_blank">Description</a></div>
-                            <div class="buy_now_button"><a href="https://mega.nz/file/n3QxGbTC#45X7kspwtBEynAidxYk_znBjPl0gr5i6Su1HXbbtjZc" target="_blank">Download</a></div>
-                        </div>
-                        <div class="cleaner">&nbsp;</div>
-                    </div>
-                    <div class="cleaner_with_width">&nbsp;</div>
-                    <div class="templatemo_product_box">
-                        <h1>50 shades of Gray (Spanish)</h1>
-                        <img src="images/libro2.png" alt="libro2"/>
-                        <div class="product_info">
-                            <p>Author: E.L. JAMES</p>
-                            <br>
-                            <p>Category: Erotic Novel</p>
-                            <br>
-                            <div class="buy_now_button"><a href="./description/description.html" id="chooseDescrip" value="descripcion2" target="_blank">Description</a></div>
-                            <div class="buy_now_button"><a href="https://mega.nz/file/Xi5AWbKD#kzmCCjIBFVgwne9pu0oHfEUE_Nznk6zgTP9d6kyDkns" target="_blank">Download</a></div>
-                        </div>
-                        <div class="cleaner">&nbsp;</div>
-                    </div>
-                    <div class="cleaner_with_width">&nbsp;</div>
-                    <div class="templatemo_product_box">
-                        <h1>The money game (Spanish)</h1>
-                        <img src="images/libro3.png" alt="libro3"/>
-                        <div class="product_info">
-                            <p>Author: Robert Toru Kiyosaki</p>
-                            <br>
-                            <p>Category: Financial education</p>
-                            <br>
-                            <div class="buy_now_button"><a href="./description/description.html" id="chooseDescrip" value="descripcion3" target="_blank">Description</a></div>
-                            <div class="buy_now_button"><a href="https://mega.nz/file/C7wnlCYB#7N9QLEywYMrqN0evYyjUP0zh4ySedwpYqqimPQys4yg" target="_blank">Download</a></div>
+                            <p id="texto"></p>
+                            <div class="buy_now_button" id="enlaceCrear"></div>
                         </div>
                         <div class="cleaner">&nbsp;</div>
                     </div>
@@ -129,13 +96,13 @@
                          <div class="address">
                             <h3 id="rrss">Social Networks</h3>
                             <li class="Links_footer">
-                               <a href="https://www.instagram.com/psetapp/" target="_blank"><img src="../icon/instagram.png" alt="instagram"/></a>
-                               <a href="https://twitter.com/psetapp" target="_blank"><img src="../icon/twitter.png" alt="twitter"/></a>
-                               <a href="https://www.facebook.com/profile.php?id=61551362910475" target="_blank"><img src="../icon/facebook.png" alt="facebook"/></a>
-                               <a href="https://www.youtube.com/channel/UCFvQjFs-_oB9sHs4JrfYPig" target="_blank"><img src="../icon/youtube.png" alt="youtube"/></a>
-                               <a href="https://www.tiktok.com/@psetapp" target="_blank"><img src="../icon/tiktok.png" alt="tiktok"/></a>
-                               <a href="https://www.pinterest.es/psetapp/" target="_blank"><img src="../icon/pinterest.png" alt="pinterest"/></a>
-                               <a href="https://www.reddit.com/user/psetapp" target="_blank"><img src="../icon/reddit.png" alt="reddit"/></a>
+                               <a href="https://www.instagram.com/psetapp/" target="_blank"><img src="../../icon/instagram.png" alt="instagram"/></a>
+                               <a href="https://twitter.com/psetapp" target="_blank"><img src="../../icon/twitter.png" alt="twitter"/></a>
+                               <a href="https://www.facebook.com/profile.php?id=61551362910475" target="_blank"><img src="../../icon/facebook.png" alt="facebook"/></a>
+                               <a href="https://www.youtube.com/channel/UCFvQjFs-_oB9sHs4JrfYPig" target="_blank"><img src="../../icon/youtube.png" alt="youtube"/></a>
+                               <a href="https://www.tiktok.com/@psetapp" target="_blank"><img src="../../icon/tiktok.png" alt="tiktok"/></a>
+                               <a href="https://www.pinterest.es/psetapp/" target="_blank"><img src="../../icon/pinterest.png" alt="pinterest"/></a>
+                               <a href="https://www.reddit.com/user/psetapp" target="_blank"><img src="../../icon/reddit.png" alt="reddit"/></a>
                             </li>
                          </div>
                       </div>
@@ -147,7 +114,7 @@
                                   <h3 id="indicContact">Contact us</h3>
                                   <ul class="Links_footer">
                                      <li>
-                                        <img src="../icon/email.png" alt="email"/>
+                                        <img src="../../icon/email.png" alt="email"/>
                                         <span class="colorLetra">psetapp@gmail.com</span>
                                      </li>
                                   </ul>
@@ -178,8 +145,8 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="./configStore.js" type="text/javascript"></script>
     <script src="../js/jquery-3.0.0.min.js"></script>
+    <script src="../configStore.js" type="text/javascript"></script>
     <script src="https://www.paypal.com/sdk/js?client-id=AWH9ef7hn2hxKRIvN8LnS_SOzbrB4DaUYFD2etd-_m6lwMrOy1ikXI9tRnrTQ4JIdOjN5PXIunmGQG2J&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
     <script>
        paypal.Buttons({
