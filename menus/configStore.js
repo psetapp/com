@@ -4,9 +4,11 @@ let texto = document.getElementById('texto');
 let crearEnlace = document.getElementById('enlaceCrear');
 const enlace = document.createElement("a");
 
-function cambiarDescrip() {
+let eleccion = elegir.getAttribute("name");
 
-    let eleccion = elegir.value;
+elegir.addEventListener('change', cambiarDescrip);
+
+function cambiarDescrip() {
 
     if(eleccion === 'descripcion1') {
         titulo.textContent = 'The Multiorgasmic Man (Spanish)';
@@ -38,8 +40,8 @@ function cambiarDescrip() {
     }else if(eleccion === 'descripcion3') {
         titulo.textContent = 'The money game (Spanish)';
         texto.textContent = 'It emphasizes the importance of analyzing financial advice well to differentiate'
-                            'what is sales advice for clients from good investment advice. If you don't make a good'
-                            'distinction you end up like many who have lost their money by relying on opinions instead of facts';
+                            'what is sales advice for clients from good investment advice. If you don`t make a good distinction'
+                            'you end up like many who have lost their money by relying on opinions instead of facts';
         crearEnlace.addEventListener("click", function() {
 
             enlace.href = "https://mega.nz/file/C7wnlCYB#7N9QLEywYMrqN0evYyjUP0zh4ySedwpYqqimPQys4yg";
@@ -48,5 +50,3 @@ function cambiarDescrip() {
         });
     }
 }
-
-elegir.addEventListener('change', cambiarDescrip);
