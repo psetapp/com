@@ -147,6 +147,7 @@ h4 a{
 }
 #header div#featured ul li.first{
 	margin-left:20px;
+	text-decoration: none;
 }
 #header div#featured ul li h2{
 	background:url(../images/bg-heading.gif) no-repeat;
@@ -154,6 +155,7 @@ h4 a{
 	font-size:30px;
 	font-weight:normal;
 	height:64px;
+	width: fit-content;
 	line-height:80px;
 	margin:0;
 	padding-left:25px;
