@@ -80,6 +80,7 @@ h4 a{
 #header div.section div div#navigation ul.primary{
 	line-height:35px;
 	padding-left:20px;
+	display: inline-block;
 }
 #header div.section div div#navigation ul.primary, #header div.section div div#navigation ul.secondary{
 	list-style-type:none;
