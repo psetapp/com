@@ -229,7 +229,7 @@ h3 {
 	width:  220px;
 	margin: 13px 0;
 	padding: 15px 22px 15px 24px;
-	background: url(images/sidebar_middle.png) repeat-y;
+	background-color: #271a23;
 }
 
 #sidebar .sidebar_top {
